@@ -1,0 +1,20 @@
+:root {
+  --blue-main: #003a70;
+  --blue-secondary: #00aeef;
+  --light-main: #f8f8ff;
+  --font-main: "Roboto Variable", Arial, Helvetica, sans-serif;
+  --font-title: "Arvo", var(--font-main);
+}
+
+*,
+::before,
+::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 auto;
+  background-color: var(--blue-main);
+  color: var(--light-main);
+  font-family: var(--font-main);
+}
